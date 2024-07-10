@@ -40,7 +40,7 @@ export const HeroLeft = styled.div`
   justify-content: center;
   align-items: flex-start;
   text-align: left;
-  flex: 1;
+  flex: 2;
 
   h1 {
     font-size: 2.8rem;

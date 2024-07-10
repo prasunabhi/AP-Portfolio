@@ -22,10 +22,10 @@ export const NavLink = styled(ScrollLink)`
     color: #f6f6f6;
   }
 `;
-export const Logo = styled('div')`
+export const Logo = styled("div")`
   img {
-    width: 47px;
-    height: 47px;
+    width: 50px;
+    height: 50px;
   }
 `;
 

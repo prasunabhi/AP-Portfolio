@@ -10,8 +10,8 @@ function Home() {
   return (
     <>
       <Hero />
-      <Projects />
       <About />
+      <Projects />
       <Contact />
       <FixSocialIcon />
       <Footer />

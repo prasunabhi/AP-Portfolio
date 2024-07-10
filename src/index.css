@@ -161,7 +161,7 @@ video {
 
 
 
-/* ------------------------------------ Media for Container */
+/* Media for Container */
 @media (max-width: 1000px) {
   .Container {
     padding: 0;
