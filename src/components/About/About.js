@@ -1,13 +1,5 @@
 import React from "react";
-import { stackList } from "../../data/ProjectData";
-import {
-  Image,
-  Technologies,
-  Tech,
-  TechImg,
-  TechName,
-  ContactWrapper,
-} from "./AboutElements";
+import { Image, ContactWrapper } from "./AboutElements";
 import ScrollAnimation from "react-animate-on-scroll";
 import logo from "../../assets/photo.png";
 function About() {
@@ -43,51 +35,37 @@ function About() {
             <div className="AboutBio">
               <ScrollAnimation animateIn="fadeInLeft">
                 Hello! My name is <strong>Prasun Abhishek Singh</strong>. I'm
-                originally from Brazil and have been living in Canada for the
-                past three years. During my time here, I gained valuable
-                experience through various entry-level positions, which greatly
-                enhanced my work ethic, communication skills, and adaptability.
+                recent Master's graduate in Business Analytics from Syracuse
+                University, I am deeply passionate about leveraging data to
+                drive business success. With over three years of experience, I
+                have honed my ability to decipher complex datasets and transform
+                them into actionable insights that lead to profitable outcomes.
               </ScrollAnimation>
-
               <br />
-              <br />
-
               <ScrollAnimation animateIn="fadeInLeft">
-                My journey into the world of technology began with a strong
-                passion for problem-solving, which led me to pursue the Computer
-                Systems Technology program. Despite its challenges, I remained
-                determined and forged lasting friendships that supported me
-                throughout this demanding program. Throughout my studies at
-                BCIT, I had the opportunity to engage in fascinating projects.
-                Notably, I contributed to the development of the RENR Safety App
-                and MyMind, projects that garnered recognition from my
-                colleagues, instructors, and clients alike.
+                Throughout my career, I have led various data-driven projects
+                that optimized operations and provided significant financial
+                benefits. Whether developing advanced analytics models, creating
+                comprehensive dashboards, or presenting critical insights to
+                stakeholders, I have always aimed to foster a culture of
+                data-driven decision-making. My blend of technical expertise and
+                business acumen has been key to delivering strategic solutions
+                that drive improvements and cost savings.
               </ScrollAnimation>
-
               <br />
-              <br />
-
               <ScrollAnimation animateIn="fadeInLeft">
-                Working collaboratively within a team towards a shared objective
-                has been an incredibly rewarding and unique experience for me. I
-                am eager to continue exploring exciting projects in the future,
-                with a particular interest in web development and cross-platform
-                mobile development.
-                <div className="tagline2">
-                  I have become confident using the following technologies:
-                </div>
+                I thrive on solving intricate business problems with data and am
+                committed to continuous learning and innovation in the field of
+                analytics. My technical proficiency includes tools such as R,
+                Python, SQL, Tableau, and Power BI, and I am certified in Google
+                Data Analytics and Six Sigma. These skills enable me to deliver
+                high-quality, data-driven solutions that enhance operational
+                efficiency and support organizational growth.
+                <br />
+                <br />I am excited about the opportunity to apply my expertise
+                in either business analyst or data analyst roles, contributing
+                to impactful and transformative projects.
               </ScrollAnimation>
-
-              <Technologies>
-                {stackList.map((stack, index) => (
-                  <ScrollAnimation animateIn="fadeInLeft" key={index}>
-                    <Tech key={index} className="tech">
-                      <TechImg src={stack.img} alt={stack.name} />
-                      <TechName>{stack.name}</TechName>
-                    </Tech>
-                  </ScrollAnimation>
-                ))}
-              </Technologies>
             </div>
           </div>
         </div>
