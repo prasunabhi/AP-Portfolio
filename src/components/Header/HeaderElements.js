@@ -24,8 +24,8 @@ export const NavLink = styled(ScrollLink)`
 `;
 export const Logo = styled("div")`
   img {
-    width: 50px;
-    height: 50px;
+    width: 110px;
+    height: 100px;
   }
 `;
 

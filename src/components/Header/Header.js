@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import logo from "../../assets/P.png";
+import logo from "../../assets/logo.png";
 
 const Header = ({ toggle }) => {
   return (
