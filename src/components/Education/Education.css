@@ -1,0 +1,81 @@
+.ProjectWrapper {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+.SectionTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+}
+
+.EducationDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.EducationCard {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  width: calc(45% - 20px);
+  /* Adjust width and gap as needed */
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.EducationCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.EducationCard h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #007bff;
+  /* Blue */
+  font-family: 'Roboto', sans-serif;
+}
+
+.EducationCard p {
+  margin: 10px 0;
+  color: #555;
+  /* Dark gray */
+  font-size: 1.1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.EducationCard ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.EducationCard li {
+  margin-bottom: 8px;
+  color: #777;
+  /* Gray */
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  display: none;
+  /* Hide initially */
+}
+
+.ViewMoreButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ViewMoreButton:hover {
+  background-color: #0056b3;
+}

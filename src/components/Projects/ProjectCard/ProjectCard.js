@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectList } from "../../../data/ProjectData";
+import { ProjectList } from "../ProjectData";
 import {
   Card,
   CardLeft,
@@ -9,6 +9,7 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
+
 function ProjectCard() {
   return (
     <>
@@ -35,16 +36,6 @@ function ProjectCard() {
                     rel="noopener noreferrer"
                   >
                     Github
-                  </a>
-                )}
-                {list.demo_url.length > 0 && (
-                  <a
-                    className="btn PrimaryBtn btn-shadow"
-                    href={list.demo_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Demo ➜
                   </a>
                 )}
               </BtnGroup>

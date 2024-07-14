@@ -83,3 +83,26 @@ export const TechCard = styled.div`
   cursor: default;
   box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
 `;
+
+export const KeyContributionsContainer = styled.div`
+  margin-top: 1em;
+`;
+
+export const KeyContributionItem = styled.li`
+  list-style: none;
+  &:before {
+    content: "• ";
+  }
+`;
+
+export const SkillsContainer = styled.div`
+  margin-top: 1em;
+`;
+
+export const SkillItem = styled.span`
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.2em 0.5em;
+  background-color: #f0f0f0;
+  border-radius: 0.3em;
+`;
