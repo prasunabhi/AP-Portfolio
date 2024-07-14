@@ -4,7 +4,7 @@ import CarouselComponent from "../Carousel/CarouselComponent";
 
 const certificationsData = [
   {
-    title: "Google Data Analytics Certification (3.5)",
+    title: "Google Data Analytics Certification ",
     details: [
       "Developed advanced skills in data analysis, including data cleaning, visualization, and reporting, using tools essential for data analytics across various phases.",
       "Ask: Learn to frame and refine business questions to guide data analysis.",
@@ -16,7 +16,7 @@ const certificationsData = [
     ],
   },
   {
-    title: "Six Sigma Green Belt (3.5)",
+    title: "Six Sigma Green Belt ",
     details: [
       "Acquired advanced knowledge of Lean Six Sigma methodologies, focusing on process improvement and quality management. Implemented strategic process optimizations to enhance operational efficiency and product quality.",
       "Applied Lean Six Sigma principles in supply chain operations, utilizing tools like Minitab for detailed data analysis and root cause analysis. Implemented DMAIC methodology to optimize logistics processes, reduce waste, and improve overall operational efficiency, resulting in significant cost savings and increased customer satisfaction metrics.",
