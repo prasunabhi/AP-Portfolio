@@ -1,0 +1,64 @@
+.SkillsWrapper {
+  padding: 20px;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+}
+
+.Container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.SectionTitle {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.SkillCard {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+}
+
+.IconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.SkillTitle {
+  font-size: 1.5em;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.SkillList {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: 0;
+  flex-grow: 1;
+}
+
+.SkillItem {
+  font-size: 14px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.commitment-text {
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: center;
+  color: #2c3e50;
+}

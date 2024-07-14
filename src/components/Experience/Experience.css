@@ -1,0 +1,96 @@
+/* Experience.css */
+
+.ProjectWrapper {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.SectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.WorkExperienceDetails,
+.EducationDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.WorkExperienceCard,
+.EducationCard {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  width: calc(48% - 20px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.WorkExperienceCard:hover,
+.EducationCard:hover {
+  transform: translateY(-10px);
+}
+
+.WorkExperienceCard h3,
+.EducationCard h3 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #333333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.WorkExperienceCard p,
+.EducationCard p {
+  margin: 10px 0;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.WorkExperienceCard ul,
+.EducationCard ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.WorkExperienceCard ul li,
+.EducationCard ul li {
+  margin: 8px 0;
+  color: #555555;
+}
+
+.ViewMoreButton {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ViewMoreButton:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+
+  .WorkExperienceCard,
+  .EducationCard {
+    width: 100%;
+  }
+}

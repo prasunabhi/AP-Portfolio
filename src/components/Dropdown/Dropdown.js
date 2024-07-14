@@ -64,23 +64,28 @@ function Dropdown({ isOpen, toggle }) {
         <NavLink onClick={toggle} className="menu-item" to="about">
           About
         </NavLink>
+        <NavLink onClick={toggle} className="menu-item" to="education">
+          Education
+        </NavLink>
+        <NavLink onClick={toggle} className="menu-item" to="experience">
+          Experience
+        </NavLink>
         <NavLink onClick={toggle} className="menu-item" to="projects">
           Projects
+        </NavLink>
+        <NavLink onClick={toggle} className="menu-item" to="skills">
+          Skills
+        </NavLink>
+        <NavLink onClick={toggle} className="menu-item" to="tools">
+          Tools
+        </NavLink>
+        <NavLink onClick={toggle} className="menu-item" to="certifications">
+          Certifications
         </NavLink>
         <NavLink onClick={toggle} className="menu-item" to="contact">
           Contact
         </NavLink>
       </NavMenu>
-      <NavBtn onClick={toggle}>
-        <a
-          className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
-      </NavBtn>
     </SiderBar>
   );
 }

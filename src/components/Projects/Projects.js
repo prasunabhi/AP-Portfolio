@@ -4,8 +4,6 @@ function Projects() {
   return (
     <>
       <br />
-      <br />
-      <br />
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
           <div className="SectionTitle">Projects</div>

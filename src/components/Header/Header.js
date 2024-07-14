@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Nav, Logo, NavLink, Bars, NavMenu } from "./HeaderElements";
 import logo from "../../assets/logo.png";
 
 const Header = ({ toggle }) => {
@@ -13,23 +13,28 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="about">
             About
           </NavLink>
+          <NavLink className="menu-item" to="education">
+            Education
+          </NavLink>
+          <NavLink className="menu-item" to="experience">
+            Experience
+          </NavLink>
           <NavLink className="menu-item" to="projects">
             Projects
+          </NavLink>
+          <NavLink className="menu-item" to="skills">
+            Skills
+          </NavLink>
+          <NavLink className="menu-item" to="tools">
+            Tools
+          </NavLink>
+          <NavLink className="menu-item" to="certifications">
+            Certifications
           </NavLink>
           <NavLink className="menu-item" to="contact">
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
-          <a
-            className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
-        </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
     </div>
