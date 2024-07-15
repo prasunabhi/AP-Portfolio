@@ -14,7 +14,6 @@ Welcome to my portfolio! Here, you'll find a showcase of my professional journey
   - **Footer**: Footer.js for the footer component.
   - **Header**: Header.js and HeaderElements.js for the header section.
   - **Hero**: Hero.js and HeroElements.js for the hero section.
-  - **Projects**:
   - **ProjectCard**: ProjectCard.js and ProjectCardElements.js for individual project cards.
   - **ProjectData**: ProjectData.js contains data for projects.
   - **Projects.js**: Main component for displaying projects.
