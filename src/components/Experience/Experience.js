@@ -5,7 +5,7 @@ function Experience() {
   const workExperience = [
     {
       id: 1,
-      position: "Quality Control Analyst",
+      position: "Business Analyst Consultant",
       company: "Baxter International Inc.",
       location: "Skaneateles, NY",
       date: "September 2023 - December 2023",
