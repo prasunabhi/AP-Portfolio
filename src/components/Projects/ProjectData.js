@@ -1,6 +1,18 @@
+import p1 from "../../assets/project/calculating-premium.png";
+import p2 from "../../assets/project/Sport Analysis- Cricket .png";
+import p3 from "../../assets/project/DBMS.jpg";
+import p4 from "../../assets/project/Datawarehouse.png";
+import p5 from "../../assets/project/SHARK TANK.png";
+import p6 from "../../assets/project/SPAM Detection in Email.png";
+import p7 from "../../assets/project/EnergyEfficiency.jpg";
+import p8 from "../../assets/project/Heart Failure Medical Analysis.png";
+import p9 from "../../assets/project/Divorce Analysis.png";
+import p10 from "../../assets/project/HPA.png";
+import p11 from "../../assets/project/ab-testing.png";
+
 export const ProjectList = [
   {
-    img: "/project/calculating-premium.png",
+    img: p1,
     title: "Analysis of Health Cost Information",
     description:
       "Analyzed the impact of various attributes on medical expenses using R programming and advanced statistical modeling techniques.",
@@ -30,7 +42,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/Sport Analysis- Cricket .png",
+    img: p2,
     title: "Sport Analysis: Cricket",
     description:
       "Conducted a comprehensive data analysis of the Indian Premier League (IPL) dataset to derive actionable insights.",
@@ -56,7 +68,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/DBMS.jpg",
+    img: p3,
     title: "CUSE Sports",
     description:
       "Developed a robust and scalable database structure for an educational institution's sports management system.",
@@ -82,7 +94,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/Datawarehouse.png",
+    img: p4,
     title: "FudgeInc Order Fulfillment",
     description:
       "Addressed delayed shipments and inconsistencies in order fulfillment through comprehensive data analysis.",
@@ -107,7 +119,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/SHARK TANK.png",
+    img: p5,
     title: "SHARK TANK Analysis Dashboard",
     description:
       "Visualized 14 seasons of 'Shark Tank USA' to analyze investment trends and pitch effectiveness.",
@@ -132,7 +144,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/SPAM Detection in Email.png",
+    img: p6,
     title: "SPAM Detection in Email",
     description:
       "Applied machine learning and NLP techniques to differentiate spam from non-spam emails.",
@@ -157,7 +169,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/EnergyEfficiency.jpg",
+    img: p7,
     title: "Energy Efficiency",
     description:
       "Conducted a machine learning analysis on energy efficiency data.",
@@ -182,7 +194,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/Heart Failure Medical Analysis.png",
+    img: p8,
     title: "Heart Failure Medical Analysis",
     description:
       "Analyzed heart failure predictors using machine learning techniques.",
@@ -207,7 +219,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/Divorce Analysis.png",
+    img: p9,
     title: "Divorce Analysis",
     description: "Analyzed divorce predictors using machine learning methods.",
     tech_stack: ["R", "Machine Learning"],
@@ -231,7 +243,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/HPA.png",
+    img: p10,
     title: "House Price Analysis",
     description:
       "Conducted an analysis of U.S. house prices using machine learning techniques.",
@@ -256,7 +268,7 @@ export const ProjectList = [
     ],
   },
   {
-    img: "/project/ab-testing.png",
+    img: p11,
     title: "A/B Testing for Hi Tea",
     description:
       "Optimized social media engagement for Hi Tea's Instagram page through A/B Testing.",
