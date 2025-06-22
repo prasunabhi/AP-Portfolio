@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+dimport React, { useState } from "react";
 import "./Experience.css";
 
 function Experience() {
@@ -9,12 +9,6 @@ function Experience() {
       company: "Baxter International Inc.",
       location: "Skaneateles, NY",
       date: "September 2023 - December 2023",
-      responsibilities: [
-        "Championed a Lean Six Sigma project, leading a 5-member team to reduce defects in Reusable Blood Pressure Cuffs, achieving an 8.5% defect reduction.",
-        "Conducted in-depth data analysis and root cause analysis, identifying key areas for process improvement and operational efficiency.",
-        "Implemented strategic process optimizations, enhancing product quality and contributing to the overall success of manufacturing processes.",
-        "Delivered actionable recommendations based on data insights, driving significant improvements in manufacturing and quality control.",
-      ],
     },
     {
       id: 2,
